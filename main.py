@@ -6,8 +6,8 @@ import threading
 # Constants
 INPUT_MOUSE = 0
 MOUSEEVENTF_MOVE = 0x0001
-MOUSEEVENTF_MOVE_NOCOALESCE = 0x2000  # Avoid smoothing
-MOUSEEVENTF_VIRTUALDESK = 0x4000      # Use full desktop coords (just in case)
+MOUSEEVENTF_MOVE_NOCOALESCE = 0x2000  
+
 
 # Globals
 enabled = False
