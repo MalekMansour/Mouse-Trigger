@@ -43,7 +43,7 @@ def recoil_loop():
     global enabled, running
     while running:
         if enabled:
-            send_mouse_movement(0, 3)  # Try 5 if it's too weak
+            send_mouse_movement(0, 3) 
             time.sleep(0.01)
         else:
             time.sleep(0.05)
